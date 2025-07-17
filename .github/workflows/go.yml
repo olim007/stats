@@ -14,5 +14,5 @@ jobs:
           go-version: 1.24
 
       - name: Run tests
-        working-directory: ./stats
+        working-directory: stats
         run: go test -v ./...
