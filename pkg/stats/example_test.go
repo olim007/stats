@@ -1,5 +1,11 @@
 package stats
 
+import (
+	"fmt"
+
+	"github.com/olim007/bank/pkg/bank/types"
+)
+
 func ExampleAvg() {
     payments := []types.Payment{
     {

@@ -1,6 +1,8 @@
 package stats
 
-import "github.com/olim007/bank/pkg/bank/types"
+import (
+	"github.com/olim007/bank/pkg/bank/types"
+)
 
 func Avg(payments []types.Payment) types.Money {
 	sum := 0
